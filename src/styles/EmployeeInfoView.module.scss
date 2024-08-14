@@ -1,0 +1,22 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-width: 200px;
+    min-height: 300px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    margin: 10px 10px;
+    .avatar {
+        align-self: center;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 10px;
+        img {
+            object-fit: contain;
+            max-width: 100%;
+        }
+    }
+}
